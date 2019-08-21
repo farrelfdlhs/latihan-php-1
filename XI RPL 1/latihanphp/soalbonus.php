@@ -2,18 +2,13 @@
 
 $mobil= array(
 
-array(
-"Volvo", 22, 18), 
+array("Volvo", 22, 18), 
 
-array(
-"BMW", 15, 13), 
+array("BMW", 15, 13), 
 
-array(
-"Saab", 5, 2),
+array("Saab", 5, 2),
 
-array(
-"Land Rover", 17, 15)
-
+array("Land Rover", 17, 15)
 );
 
 
@@ -25,7 +20,7 @@ $num++;
 echo "<br><b>Data Mobil $num</b><br>";
 foreach ($data as $key => $value)
 {
-echo "- $value <br>";
+echo "<li>$value <br>";
 
 }
 }
